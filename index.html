@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" href="./favicon.ico" type="image/x-icon">
+      <link href="./resources/css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+      <title>Библиотека села Чистое</title>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    
+    <header>
+      <div id="navbar">
+        <a href="#main-page"><img src="./resources/img/logo.svg" alt="Логотип библиотеки села Чистое" id="logo"></a>
+        <label for="toggler" id="toggler-label"><img src="./resources/img/mobile-menu.svg" id="mobile-menu-img" alt=""></label>
+
+        <!-- Desktop view menu -->
+        <ul class="menu" id="desktop-menu">
+          <li><a href="#main-page">Главная</a></li>
+          <li><a href="#events-page">События</a></li>
+          <li><a href="#books-page">Книги</a></li>
+          <li><a href="#services-page">Услуги</a></li>
+          <li><a href="#">О библиотеке</a></li>
+        </ul>
+      </div>
+
+      <!-- Mobile view menu -->
+      <input type="checkbox" id="toggler" />
+      <ul class="menu" id="mobile-menu">
+          <a href="#main-page"><li>Главная</li></a>
+          <a href="#events-page"><li>События</li></a>
+          <a href="#books-page"><li>Книги</li></a>
+          <a href="#services-page"><li>Услуги</li></a>
+          <a href="#"><li>О библиотеке</li></a>
+      </ul>
+    </header>
+      
+    <!-- Main Content -->
+
+    <main>
+      
+      <!-- Main Page Section -->
+      <section id="main-page">
+        <div id="main-page-ad">
+          <div id="ad-container">
+            <h1 id="ad-date">5-16 июля</h1>
+            <h1 id="ad-event">«Интерес на свежем воздухе»</h1>
+            <p id="ad-text">Летняя прогулочная группа для детей от 6 до 14 лет</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Events Page Section -->
+      <section id="events-page">
+        <div id="events-calendar">
+    
+        </div>
+      </section>
+
+      <!-- Books Page Section -->
+      <section id="books-page">
+        <h2 id="books-header">Самые атмосферные книги для летнего чтения 2021</h2>
+        <div id="books-container">
+          <figure class="image-container">
+            <img src="./resources/img/books-dandelion-wine.jpg" alt="Вино из одуванчиков">
+            <figcaption>
+              <p class="books-title">«Вино из одуванчиков»</p>
+              <p class="books-author">Рэй Брэдбери</p>
+            </figcaption>
+          </figure>
+          <figure class="image-container">
+            <img src="./resources/img/books-bonjour-tristesse.jpg" alt="Вино из одуванчиков">
+            <figcaption>
+              <p class="books-title">«Здравствуй, грусть»</p>
+              <p class="books-author">Франсуаза Саган</p>
+            </figcaption>
+          </figure>
+          <figure class="image-container">
+            <img src="./resources/img/books-tender-is-the-night.jpg" alt="Ночь нежна">
+            <figcaption>
+              <p class="books-title">«Ночь нежна»</p>
+              <p class="books-author">Френсис Скотт Фицджеральд</p>
+            </figcaption>
+          </figure>
+          <figure class="image-container">
+            <img src="./resources/img/books-the-door-into-summer.jpg" alt="Дверь в лето">
+            <figcaption>
+              <p class="books-title">«Дверь в лето»</p>
+              <p class="books-author">Роберт Хайлайн</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Services Page Section -->
+      <section id="services-page">
+        <div id="services-container">
+    
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
