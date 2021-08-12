@@ -24,14 +24,10 @@ h1 {
   font-size: 2.5rem;
 }
 
-h2 {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 1.75rem;
-}
 
-td h2 {
+h2 {
   font-size: 1.25rem;
+  font-weight: 600;
 }
 
 
@@ -256,6 +252,7 @@ header ul {
   font-family: PT Serif;
   font-style: normal;
   font-weight: normal;
+  font-size: 1.75rem;
   margin-top: 3rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -346,6 +343,12 @@ header ul {
   padding-bottom: 0.25rem;
 }
 
+@media only screen and (max-height: 800px) {
+    #services-page {
+    height: 150vh;
+  }
+}
+
 
 
 /* About Page Section */
@@ -354,15 +357,64 @@ header ul {
   align-content: center;
   display: flex;
   justify-content: center;
+  height: 100vh;
   width: 100%;
 }
 
 #about-container {
-  align-content: flex-end;
-  align-items: flex-start;
+  align-content: flex-start;
   background-color: #f9f7f8;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 96%;
+  justify-content: space-around;
+  margin-top: 5rem;
+  width: 92%;
+}
+
+#about-info {
+  width: 30rem;
+  height: 25rem;
+}
+
+.about-address {
+  margin-bottom: 2rem;
+  width: 75%;
+}
+
+#about-map {
+  margin-bottom: 2rem;
+  overflow: hidden;
+  width: 30rem;
+  height: 25rem;
+}
+
+#about-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.about-address h2 {
+  border-bottom: 1px solid #12263a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-address td {
+  font-weight: 600;
+  padding-bottom: 0.5rem;
+}
+
+.about-address table {
+  width: 50%;
+}
+
+.about-address-container {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 0.5rem;
+}
+
+.about-address-container p {
+  font-weight: 600;
+  margin-left: 0.75rem;
 }
