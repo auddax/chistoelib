@@ -247,7 +247,7 @@ header ul {
   align-content: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 105vh;
   justify-content: flex-start;
   width: 100%;
 }
@@ -277,7 +277,7 @@ header ul {
   height: 17rem;
   background-color: #c5d8d1;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
   margin-bottom: 4rem;
 }
 
@@ -293,9 +293,15 @@ header ul {
   text-align: center;
 }
 
-@media only screen and (max-width: 895px) {
+@media only screen and (max-height: 800px) {
     #books-page {
     height: 130vh;
+  }
+}
+
+@media only screen and (max-height: 640px) {
+    #books-page {
+    height: 230vh;
   }
 }
 
