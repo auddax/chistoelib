@@ -32,9 +32,6 @@ h2 {
 
 
 main {
-  position: relative;
-  top: 3rem;
-  min-height: 0;
   width: 100%;
 }
 
@@ -122,7 +119,7 @@ header ul {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 835px) {
 
   #desktop-menu {
     display: none;
@@ -243,7 +240,7 @@ header ul {
   align-content: center;
   display: flex;
   flex-direction: column;
-  height: 105vh;
+  height: 100vh;
   justify-content: flex-start;
   width: 100%;
 }
@@ -264,7 +261,6 @@ header ul {
   display: flex;
   background-color: #f9f7f8;
   flex-wrap: wrap;
-  grid-column: 1/span 12;
   justify-content: space-around;
   height: 60vh;
 }
@@ -290,17 +286,17 @@ header ul {
   text-align: center;
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-width: 835px) {
     #books-page {
     height: 130vh;
   }
 }
 
-@media only screen and (max-height: 640px) {
+/*@media only screen and (max-width: 600px) {
     #books-page {
     height: 230vh;
   }
-}
+}*/
 
 
 
@@ -326,7 +322,7 @@ header ul {
 }
 
 .services-block {
-  width: 35rem;
+  width: 50%;
   padding: 0.75rem 1.5rem;
 }
 
@@ -343,9 +339,13 @@ header ul {
   padding-bottom: 0.25rem;
 }
 
-@media only screen and (max-height: 800px) {
-    #services-page {
+@media only screen and (max-width: 835px) {
+  #services-page {
     height: 150vh;
+  }
+
+  .services-block {
+    width: 100%;
   }
 }
 
@@ -357,7 +357,7 @@ header ul {
   align-content: center;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
 }
 
@@ -391,6 +391,7 @@ header ul {
 #about-map iframe {
   width: 100%;
   height: 100%;
+  border: 1px solid #c5d8d1;
 }
 
 .about-address h2 {
@@ -418,3 +419,35 @@ header ul {
   font-weight: 600;
   margin-left: 0.75rem;
 }
+
+.about-address-container a:hover {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1240px) {
+  #about-page {
+    height: 150vh;
+  }
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  position: relative;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #c5d8d1;
+}
+
+footer .image-container {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+
+
