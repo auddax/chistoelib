@@ -157,7 +157,7 @@ header ul {
   height: 100vh;
 }
 
-#main-page-ad {
+#main-page-content {
   align-items: center;
   display: flex;
   background-color: #f9f7f8;
@@ -169,7 +169,7 @@ header ul {
   padding-bottom: 7.5%;
 }
 
-#ad-container {
+#content-container {
   border-left: 3px solid #a3a29f;
   display: flex;
   flex-wrap: wrap;
@@ -180,8 +180,8 @@ header ul {
   padding-right: 5%;
 }
 
-#ad-date,
-#ad-event {
+#content-date,
+#content-event {
   font-family: PT Serif;
   font-style: normal;
   font-weight: bold;
@@ -189,12 +189,12 @@ header ul {
   text-transform: uppercase;
 }
 
-#ad-event {
+#content-event {
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
-#ad-text {
+#content-text {
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
@@ -202,7 +202,7 @@ header ul {
 }
 
 @media only screen and (max-width: 895px) {
-  #main-page-ad {
+  #main-page-content {
     grid-column: 1/13;
   }
 }
