@@ -154,7 +154,7 @@ header ul {
   grid-template-columns: repeat(12, 5.5%);
   grid-column-gap: 2.34%;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #main-page-content {
@@ -220,7 +220,7 @@ header ul {
   grid-template-columns: repeat(12, 5.5%);
   grid-column-gap: 2.34%;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #events-calendar {
@@ -240,7 +240,7 @@ header ul {
   align-content: center;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: 100vh;
   justify-content: flex-start;
   width: 100%;
 }
@@ -262,7 +262,7 @@ header ul {
   background-color: #f9f7f8;
   flex-wrap: wrap;
   justify-content: space-around;
-  height: 60vh;
+  min-height: 60vh;
 }
 
 #books-container .image-container {
@@ -286,18 +286,6 @@ header ul {
   text-align: center;
 }
 
-@media only screen and (max-width: 835px) {
-    #books-page {
-    height: 130vh;
-  }
-}
-
-/*@media only screen and (max-width: 600px) {
-    #books-page {
-    height: 230vh;
-  }
-}*/
-
 
 
 /* Services Page Section */
@@ -306,7 +294,7 @@ header ul {
   align-content: flex-start;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -340,14 +328,11 @@ header ul {
 }
 
 @media only screen and (max-width: 835px) {
-  #services-page {
-    height: 150vh;
-  }
-
   .services-block {
     width: 100%;
   }
 }
+
 
 
 
@@ -357,7 +342,7 @@ header ul {
   align-content: center;
   display: flex;
   justify-content: center;
-  height: 90vh;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -368,6 +353,7 @@ header ul {
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5rem;
+  margin-bottom: 5rem;
   width: 92%;
 }
 
@@ -422,12 +408,6 @@ header ul {
 
 .about-address-container a:hover {
   font-weight: bold;
-}
-
-@media only screen and (max-width: 1240px) {
-  #about-page {
-    height: 150vh;
-  }
 }
 
 
