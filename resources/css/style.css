@@ -68,7 +68,7 @@ main {
 
 #mobile-menu {
   position: fixed;
-  top: -7.5rem;
+  top: -8rem;
   background-color: #f9f7f8;
   filter: drop-shadow(0px 0px 0.3rem #c5d8d1);
   display: block;
@@ -102,7 +102,6 @@ header ul {
 
 .menu a:hover {
   font-weight: bold;
-  /*background-color: #f4f4f4;*/
 }
 
 #desktop-menu {
@@ -112,6 +111,7 @@ header ul {
 #logo {
   grid-column-start: 1;
 }
+
 
 @media only screen and (max-width: 895px) {
   #desktop-menu {
@@ -129,7 +129,6 @@ header ul {
     top: 2.8rem;
   }
 
-
   #toggler-label {
     grid-column-start: 12;
   }
@@ -138,7 +137,6 @@ header ul {
     cursor: pointer;
     display: inline-block;
   }
-
 }
 
 
@@ -163,7 +161,7 @@ header ul {
   background-color: #f9f7f8;
   grid-column: 1/span 6;
   justify-content: center;
-  opacity: .9;
+  opacity: .8;
   height: auto;
   padding-top: 7.5%;
   padding-bottom: 7.5%;
@@ -229,7 +227,7 @@ header ul {
   background-color: #f9f7f8;
   grid-column: 1/span 12;
   justify-content: center;
-  opacity: .9;
+  opacity: .8;
   height: 70vh;
 }
 
@@ -259,7 +257,6 @@ header ul {
 #books-container {
   align-items: center;
   display: flex;
-  background-color: #f9f7f8;
   flex-wrap: wrap;
   justify-content: space-around;
   min-height: 60vh;
@@ -301,7 +298,6 @@ header ul {
 #services-container {
   align-content: flex-start;
   align-items: flex-start;
-  background-color: #f9f7f8;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -340,19 +336,19 @@ header ul {
   align-content: center;
   display: flex;
   justify-content: center;
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100%;
 }
 
 #about-container {
   align-content: flex-start;
-  background-color: #f9f7f8;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2.5rem;
   width: 92%;
+  height: 80%;
 }
 
 #about-info {
@@ -404,6 +400,10 @@ header ul {
   margin-left: 0.75rem;
 }
 
+.about-address-container a {
+  color: #12263a;
+}
+
 .about-address-container a:hover {
   font-weight: bold;
 }
@@ -427,5 +427,87 @@ footer .image-container {
   margin: 0 0.5rem;
 }
 
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #12263a;
+    color: #f9f7f8;
+  }
+
+  #navbar {
+    background-color: #12263a;
+  }
+
+  #navbar img {
+    filter: invert(100%) sepia(40%) saturate(385%) hue-rotate(189deg) brightness(99%) contrast(97%);
+  }
+
+  #mobile-menu {
+    background-color: #12263a;
+  }
+
+  .menu a {
+    color: #f9f7f8;
+  }
+
+  #main-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/main-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #main-page-content {
+    background-color: #12263a;
+  }
+
+  #events-page {
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(../img/events-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #events-calendar {
+    background-color: #12263a;
+  }
+
+  #books-container .image-container {
+    background-color: #4b4a44;
+  }
+
+  #books-container img {
+    filter: brightness(80%);
+  }
+
+  .services-block .image-container {
+    filter: brightness(80%);
+  }
+  .about-address h2 {
+    border-bottom: 1px solid #f9f7f8;
+  }
+
+  .about-address-container a {
+    color: #f9f7f8;
+  }
+
+  .about-address-container img {
+    filter: invert(100%) sepia(40%) saturate(385%) hue-rotate(189deg) brightness(99%) contrast(97%);
+  }
+
+  #about-map iframe {
+    filter: invert(90%);
+}
+
+  footer {
+    background-color: #4b4a44;
+  }
+
+  footer img {
+    filter: invert(100%) sepia(40%) saturate(385%) hue-rotate(189deg) brightness(99%) contrast(97%);
+  }
+}
 
 
