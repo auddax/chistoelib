@@ -6,7 +6,7 @@ import './EventsApp.css';
 import Calendar from '../Calendar/Calendar';
 import Event from '../Event/Event';
 import MainApp from '../MainApp/MainApp';
-import { API_KEY, CALENDAR_ID, DISCOVERY_DOCS } from "./config.js";
+import { CALENDAR_ID, DISCOVERY_DOCS } from "./config.js";
 
 
 function EventsApp() {
@@ -18,7 +18,7 @@ function EventsApp() {
   useEffect(() => {
     function start() {
       gapi.client.init({
-        apiKey: API_KEY,
+        apiKey: process.env.REACT_APP_API_KEY,
         discoveryDocs: DISCOVERY_DOCS
       }).then(function () {
         return gapi.client.calendar.events.list({
@@ -62,7 +62,7 @@ function EventsApp() {
   useEffect(() => {
     function view() {
       gapi.client.init({
-        apiKey: API_KEY,
+        apiKey:process.env.REACT_APP_API_KEY,
         discoveryDocs: DISCOVERY_DOCS
       }).then(function () {
         return gapi.client.calendar.events.list({
