@@ -56,6 +56,7 @@ function EventsApp() {
     })
   };
     gapi.load('client', start);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]);
 
   useEffect(() => {

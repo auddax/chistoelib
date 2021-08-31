@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import EventsApp from './components/EventsApp/EventsApp';
-import MainApp from './components/MainApp/MainApp';
 
 
 ReactDOM.render(
@@ -158,17 +157,17 @@ ReactDOM.render(
     <section id="about-page">
       <div id="about-container">
         <div id="about-map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.900499759344!2d42.996814215961194!3d56.53835678077076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414e0449e2fe7001%3A0x3ca2bb13c0672971!2z0YPQuy4g0JvQtdC90LjQvdCwLCA10JAsINCn0LjRgdGC0L7QtSwg0J3QuNC20LXQs9C-0YDQvtC00YHQutCw0Y8g0L7QsdC7LiwgNjA2NTU5!5e0!3m2!1sru!2sru!4v1628783407092!5m2!1sru!2sru"  allowfullscreen="" loading="lazy"></iframe>
+          <iframe title="Google map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2199.900499759344!2d42.996814215961194!3d56.53835678077076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414e0449e2fe7001%3A0x3ca2bb13c0672971!2z0YPQuy4g0JvQtdC90LjQvdCwLCA10JAsINCn0LjRgdGC0L7QtSwg0J3QuNC20LXQs9C-0YDQvtC00YHQutCw0Y8g0L7QsdC7LiwgNjA2NTU5!5e0!3m2!1sru!2sru!4v1628783407092!5m2!1sru!2sru"  allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div id="about-info">
           <div class="about-address">
             <h2>Адрес библиотеки</h2>
             <div class="about-address-container">
-              <img src="./resources/img/map-point-icon.svg"/>
+              <img src="./resources/img/map-point-icon.svg" alt=""/>
               <p>Нижегородская область, село Чистое, ул. Ленина, д. 5А</p>
             </div>
             <div class="about-address-container">
-              <img src="./resources/img/mail-icon.svg"/>
+              <img src="./resources/img/mail-icon.svg" alt=""/>
               <p><a href="mailto:mail@chistoelib.ru">mail@chistoelib.ru</a></p>
             </div>
           </div>
