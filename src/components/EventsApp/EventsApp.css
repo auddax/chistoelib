@@ -1,0 +1,16 @@
+#events-app {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+#events {
+  align-items: flex-start;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  justify-content: flex-start;
+  padding-top: 2.5%;
+}

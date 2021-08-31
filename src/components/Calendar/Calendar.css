@@ -1,0 +1,54 @@
+.calendar-app {
+  padding: 0 0 1rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  border-top: 3px solid #a3a29f;
+  border-bottom: 3px solid #a3a29f;
+}
+
+.calendar-app-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.calendar-app-month {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.arrow {
+  color: #06bcc1;
+  cursor: pointer;  
+  font-size: 2rem;
+}
+
+.calendar-app-days {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.day {
+  cursor: pointer;
+  position: relative;
+  width: calc(100% / 7);
+  display: inline-block;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+}
+
+.selected {
+  background-color: #06bcc1;
+  opacity: 0.7;
+  color: #f4edea;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.no-selected {
+  padding: 0.5rem;
+}
+
