@@ -10,7 +10,8 @@ function MainApp(props) {
         {typeof summary !== 'undefined' ? (
           <div id="content-container">
             <h1 id="content-date">{moment(date).format('D MMMM')}</h1>
-            <a href="#events-page"><h1 id="content-event">«{summary}»</h1></a>
+            <a href="#events-page"><h1 id="content-event">{summary.split('|')[0]}</h1></a>
+            <p id="content-text">{summary.split('|')[1]}</p>
           </div>) : (
           <img src={loader} alt=""/>)
         }
