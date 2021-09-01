@@ -470,6 +470,10 @@ footer .image-container {
     background-color: #242322;
   }
 
+  #main-page-content a {
+  color: #f9f7f8;
+  }
+
   #events-page {
     background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(../img/events-background.jpg);
     background-position: center;
@@ -477,9 +481,15 @@ footer .image-container {
     background-repeat: no-repeat;
   }
 
-  #events-calendar {
+  #calendar,
+  #events {
     background-color: #242322;
   }
+
+  .event-details img {
+    filter: invert(100%) sepia(40%) saturate(385%) hue-rotate(189deg) brightness(99%) contrast(97%);
+  }
+
 
   #books-container .image-container {
     background-color: #242322;
