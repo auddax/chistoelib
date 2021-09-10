@@ -13,7 +13,7 @@
 
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add your Google Calendar API as the following environment variable to your .env file
 
 `REACT_APP_API_KEY`
 
@@ -47,7 +47,6 @@ Start the server
 
 **Konovalov Kirill**
 
-* Github: [@auddax](https://github.com/auddax)
 * LinkedIn: [@kirillkonovalov](https://linkedin.com/in/kirillkonovalov)
 
 ## Show your support

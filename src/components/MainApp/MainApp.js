@@ -1,5 +1,5 @@
 import moment from 'moment';
-import loader from './preloader.svg'
+import preloader from './preloader.svg'
 
 
 function MainApp(props) {
@@ -13,7 +13,7 @@ function MainApp(props) {
             <a href="#events-page"><h1 id="content-event">{summary.split('|')[0]}</h1></a>
             <p id="content-text">{summary.split('|')[1]}</p>
           </div>) : (
-          <img src={loader} alt=""/>)
+          <img src={preloader} alt=""/>)
         }
       </div>
     )
