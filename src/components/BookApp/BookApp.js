@@ -5,7 +5,7 @@ function BookApp(props) {
   const { bookid } = props;
   const [booksData, setBooksData] = useState({});
 
-  const link = `https://www.litres.ru/pages/biblio_book/?art=${bookid}&lfrom=2886435`
+  const link = `https://biblio.litres.ru/pages/biblio_book/?art=${bookid}&lfrom=2886435`
   const linkImg = `https://cv2.litres.ru/pub/c/elektronnaya-kniga/cover_415/${bookid}-pages-biblio-book-art-${bookid}.jpg`
 
   useEffect(() => {

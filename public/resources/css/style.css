@@ -1,7 +1,5 @@
 /* Universal Styles */
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
 
 html {
   font-size: calc(.4vw + 14px);
@@ -255,7 +253,7 @@ header ul {
   font-style: normal;
   font-weight: normal;
   font-size: 1.75rem;
-  margin-top: 3rem;
+  margin-top: 1rem;
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -503,6 +501,10 @@ footer .image-container {
 
   #books-container img {
     filter: brightness(80%);
+  }
+
+  #books-container figcaption {
+    color: #f9f7f8;
   }
 
   .services-block .image-container {
