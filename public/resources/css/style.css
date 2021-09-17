@@ -227,7 +227,7 @@ header ul {
   display: flex;
   opacity: .9;
   background-color: #f9f7f8;
-  width: 35rem;
+  width: 32rem;
   height: 28rem;
 }
 
@@ -252,10 +252,10 @@ header ul {
   font-family: PT Serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.75rem;
-  margin-top: 1rem;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   text-align: center;
 }
 
@@ -264,34 +264,60 @@ header ul {
   align-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  min-height: 60vh;
+  justify-content: space-evenly;
+  min-height: 55vh;
 }
 
 #books-container figure {
-  width: 12rem;
+  margin: 0 .5rem;
+  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
 }
 
 #books-container figure figcaption {
-  margin: 1rem auto;
+  margin: .75rem auto;
+  width: 10rem;
 }
 
 #books-container .image-container {
-  width: 12rem;
-  height: 18rem;
+  width: 10rem;
+  height: 15rem;
   background-color: #c5d8d1;
-  padding: 1.5rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+#books-buttons {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lib-button {
+  margin: .75rem;
+  text-align: center;
+  background-color: #06bcc1;
+  opacity: .7;
+  padding: .75rem;
+  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
+}
+
+.lib-button a {
+  color: #f9f7f8;
+  font-weight: 500;
 }
 
 .books-title {
   font-weight: 600;
   text-align: center;
+  font-size: 0.85rem;
 }
 
 .books-author {
   font-style: italic;
   font-weight: normal;
   text-align: center;
+  font-size: 0.85rem;
 }
 
 
