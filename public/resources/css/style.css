@@ -269,8 +269,7 @@ header ul {
 }
 
 #books-container figure {
-  margin: 0 .5rem;
-  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
+  margin: 0 .25rem;
 }
 
 #books-container figure figcaption {
@@ -279,27 +278,29 @@ header ul {
 }
 
 #books-container .image-container {
-  width: 10rem;
-  height: 15rem;
   background-color: #c5d8d1;
+  height: 15rem;
+  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
   margin: 0 auto;
   padding: 1rem;
+  width: 10rem;
 }
 
 #books-buttons {
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 
 .lib-button {
-  margin: .75rem;
-  text-align: center;
   background-color: #06bcc1;
+  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
+  margin: .75rem;
   opacity: .7;
   padding: .75rem;
-  filter: drop-shadow(5px 5px 0.3rem #c5d8d1);
+  text-align: center;
+  
 }
 
 .lib-button a {

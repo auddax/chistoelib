@@ -15,7 +15,7 @@
 .event-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .event-date-month {
@@ -33,9 +33,14 @@
   width: 100%;
 }
 
+.event-text {
+  font-size: 1.15rem;
+}
+
 .event-details {
   display: flex;
   justify-content: space-between;
+  font-size: 1rem;
   font-weight: 400;
   flex-wrap: wrap;
 }
@@ -45,9 +50,9 @@
 }
 
 .event-details img {
-  height: 1.25rem;
-  width: 1.25rem;
-  margin-right: 0.25rem;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.2rem;
 }
 
 .event-details-time,
