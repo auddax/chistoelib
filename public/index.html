@@ -19,13 +19,14 @@
   <body>
 
     <!-- Header -->
-    
     <header>
       <div id="navbar">
         <a href="#main-page"><img src="./resources/img/logo.svg" alt="Логотип библиотеки села Чистое" id="logo"></a>
-        <label for="toggler" id="toggler-label">
-          <img src="./resources/img/mobile-menu.svg" id="mobile-menu-img" alt="">
-        </label>
+        <div class="toggler-box">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
 
         <!-- Desktop view menu -->
         <ul class="menu" id="desktop-menu">
@@ -38,27 +39,34 @@
       </div>
 
       <!-- Mobile view menu -->
-      <input type="checkbox" id="toggler" />
       <ul class="menu" id="mobile-menu">
-          <a href="#main-page"><li>Главная</li></a>
-          <a href="#events-page"><li>События</li></a>
-          <a href="#books-page"><li>Книги</li></a>
-          <a href="#services-page"><li>Услуги</li></a>
-          <a href="#about-page"><li>О библиотеке</li></a>
+          <li><a href="#main-page">Главная</a></li>
+          <li><a href="#events-page">События</a></li>
+          <li><a href="#books-page">Книги</a></li>
+          <li><a href="#services-page">Услуги</a></li>
+          <li><a href="#about-page">О библиотеке</a></li>
       </ul>
     </header>
       
     <!-- Main Content -->
-
     <main>
       <div id="root"></div>
     </main>
 
-    <!--Footer -->
+    <!-- Footer -->
     <footer>
       <a href="https://vk.com/club195338741" target="_blank" rel="noreferrer"><div class="image-container"><img src="./resources/img/vkontakte-logo.svg"></div></a>
       <a href="http://instagram.com/creativlib" target="_blank" rel="noreferrer"><div class="image-container"><img src="./resources/img/instagram-logo.svg"></div></a>
     </footer>
 
   </body>
+
+  <!-- Toggler Script -->
+  <script type="text/javascript">
+    document.querySelector('.toggler-box').addEventListener('click', function() {
+      document.querySelector('.toggler-box').classList.toggle('active');
+      document.querySelector('#mobile-menu').classList.toggle('active');
+    });
+  </script>
+
 </html>
