@@ -109,7 +109,8 @@ function EventsApp() {
       <section id="main-page">
         <MainApp 
           summary={comingEvent.text} 
-          date={comingEvent.date} 
+          eventDate={comingEvent.date}
+          setDate={setDate}
         />
       </section>
 
