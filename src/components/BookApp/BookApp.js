@@ -31,8 +31,9 @@ function BookApp(props) {
     <figure>
       <a href={link} target="_blank" rel="noreferrer">
         <div className="image-container">
-          <img src={linkImg} alt={booksData.title}/>
+          <img src={linkImg} alt={booksData.title}/>  
         </div>
+        <div className="books-request">Запросить</div>
         <figcaption>
           <p className="books-title">{booksData.title}</p>
           <p className="books-author">{booksData.author}</p>

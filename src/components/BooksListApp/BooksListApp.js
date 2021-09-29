@@ -13,8 +13,8 @@ function BooksListApp() {
          })}
       </div>
       <div id="books-buttons">
-        <div className="lib-button"><a href="https://biblio.litres.ru" target="_blank" rel="noreferrer">Перейти в библиотеку</a></div>
-        <div className="lib-button"><a href="https://biblio.litres.ru/libreg/1081039/" target="_blank" rel="noreferrer">Записаться в библиотеку</a></div>
+        <a href="https://biblio.litres.ru" target="_blank" rel="noreferrer"><div className="lib-button">Перейти в библиотеку</div></a>
+        <a href="https://biblio.litres.ru/libreg/1081039/" target="_blank" rel="noreferrer"><div className="lib-button">Записаться в библиотеку</div></a>
       </div>
     </section>
   )    

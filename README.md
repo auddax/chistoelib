@@ -1,10 +1,10 @@
 # Chistoe Library Website
 
-> One-page library website using React and Google Calendar API
+One-page library website using React and Google Calendar API
 
 ## Project page 
 
-> https://chistoelib.ru
+https://chistoelib.ru
 
 ## Screenshots
 
