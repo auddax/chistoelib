@@ -2,7 +2,7 @@
 
 
 html {
-  font-size: calc(.4vw + 14px);
+  font-size: calc(.4vw + 12px);
   scroll-behavior: smooth;
   width: 100%;
 }
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
 }
 
 h2 {
@@ -91,8 +91,8 @@ header ul {
   font-family: Raleway;
   font-style: normal;
   font-weight: 600;
-  font-size: 0.8rem;
-  margin-left: 4rem;
+  font-size: 0.85rem;
+  margin-left: 5rem;
 }
 
 .menu a:hover {
@@ -210,6 +210,7 @@ header ul {
 #content-event {
   padding-top: 5%;
   padding-bottom: 5%;
+  hyphens: auto;
 }
 
 #content-text {
@@ -298,6 +299,7 @@ header ul {
 
 #books-container .image-container {
   background-color: #c5d8d1;
+  border-radius: 4px;
   height: 15rem;
   filter: drop-shadow(0 0 0.3rem #c5d8d1);
   margin: 0 auto;
@@ -307,6 +309,7 @@ header ul {
 
 .books-request {
   border: 2px solid #f9f7f8;
+  border-radius: 4px;
   color: #f9f7f8;
   display: none;
   font-weight: 600;
@@ -335,6 +338,7 @@ header ul {
 
 .lib-button {
   border: 2px solid #12263a;
+  border-radius: 4px;
   color: #12263a;
   font-weight: 600;
   margin: .75rem;
