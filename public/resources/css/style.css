@@ -2,7 +2,7 @@
 
 
 html {
-  font-size: calc(.4vw + 12px);
+  font-size: calc(.4vw + 13px);
   scroll-behavior: smooth;
   width: 100%;
 }
