@@ -24,7 +24,7 @@ function EventsApp() {
         return gapi.client.calendar.events.list({
           'calendarId': CALENDAR_ID,
           'timeMin': date.toISOString(),
-          'timeMax': (date.clone().add(10, 'day')).toISOString(),
+          'timeMax': (date.clone().add(30, 'day')).toISOString(),
           'showDeleted': false,
           'singleEvents': true,
           'maxResults': 10,
