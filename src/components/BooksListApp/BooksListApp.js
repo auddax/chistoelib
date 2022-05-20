@@ -2,11 +2,11 @@ import React from 'react';
 import BookApp from '../BookApp/BookApp';
 
 function BooksListApp() {
-  const booksID = [596225, 121724, 166312, 125474, 144464];
+  const booksID = [67303161, 67439310, 67469772, 67284983, 67551656];
 
   return (
     <section id="books-page">
-      <h2 id="books-header">5 романов от осенней хандры</h2>
+      <h2 id="books-header">Лучшие книги апреля 2022</h2>
       <div id="books-container">
          {booksID.map(id => {
           return <BookApp bookid={id} />

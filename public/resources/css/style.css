@@ -134,12 +134,12 @@ header ul {
 #content-container {
   border-left: 3px solid #a3a29f;
   display: flex;
-  flex-wrap: wrap;
   align-content: space-between;
   height: 85%;
   width: 85%;
   padding-left: 5%;
   padding-right: 5%;
+  flex-direction: column;
 }
 
 #content-date,
