@@ -4,7 +4,7 @@ One-page library website using React and Google Calendar API
 
 ## Project page 
 
-https://chistoelib.ru
+https://chistoelib.netlify.app
 
 ## Screenshots
 
